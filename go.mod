@@ -1,3 +1,3 @@
-module github.com/healingdrawing/penishell
+module github.com/healingdrawing/task-0-shell
 
 go 1.21.5
