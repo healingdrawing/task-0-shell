@@ -11,6 +11,11 @@ import (
 
 func main() {
 
+	// full list of allowed commands includes echo and cd, managed separately
+	supported_commands := strings.Join([]string{"echo", "cd", "ls", "pwd", "cat", "cp", "rm", "mv", "mkdir", "exit"}, ", ")
+	// allowed commands
+	allowed_commands := []string{"ls", "pwd", "cat", "cp", "rm", "mv", "mkdir", "exit"}
+
 	bang()
 
 	reader := bufio.NewReader(os.Stdin)
@@ -64,6 +69,21 @@ func main() {
 			}
 
 		default:
+			// limit the allowed commands. "cd" and "echo" are managed above, so we only allow
+			// "ls" , "pwd" , "cat" , "cp" , "rm" , "mv" , "mkdir" , "exit".
+			allowed := false
+			for _, allowed_command := range allowed_commands {
+				if args[0] == allowed_command {
+					allowed = true
+					break
+				}
+			}
+			if !allowed && args[0] != "" {
+				fmt.Println("Command [", args[0], "] not allowed.")
+				fmt.Println("Supported commands:", supported_commands, ".")
+				continue
+			}
+
 			cmd := exec.Command(args[0], args[1:]...)
 			cmd.Stdout = os.Stdout
 			cmd.Stderr = os.Stderr
