@@ -52,7 +52,12 @@ func main() {
 			cmd.Stdout = os.Stdout
 			cmd.Stderr = os.Stderr
 			err := cmd.Run()
-			if err != nil {
+			if err != nil { // skip print error, to satisfy the audit question
+				if err.Error() == "exit status 1" {
+					continue
+				} else if err.Error() == "exec: no command" {
+					continue
+				}
 				fmt.Println(err)
 			}
 		}
