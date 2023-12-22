@@ -9,7 +9,7 @@ Follow the next rules and restrictions to use program properly:
 - supported commands are: `echo` `cd` , `ls` , `pwd` , `cat` , `cp` , `rm` , `mv` , `mkdir` , `exit`.  
 
 Otherwise do not expect correct work.  
-For details see [task and audit questions](https://github.com/01-edu/public/tree/master/subjects/0-shell).
+For details see [task and audit questions](https://github.com/01-edu/public/tree/master/subjects/0-shell).  
 
 ## Usage
 To run the program, use the following command:  
