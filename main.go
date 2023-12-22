@@ -47,6 +47,22 @@ func main() {
 			if err != nil {
 				fmt.Println(err)
 			}
+		case "echo":
+			str := strings.Join(args[1:], " ")
+			// cut first and last "
+			if len(str) > 1 &&
+				(str[0] == '"' && str[len(str)-1] == '"' ||
+					str[0] == '\'' && str[len(str)-1] == '\'') {
+				str = str[1 : len(str)-1]
+			}
+			cmd := exec.Command("echo", str)
+			cmd.Stdout = os.Stdout
+			cmd.Stderr = os.Stderr
+			err := cmd.Run()
+			if err != nil {
+				fmt.Println(err)
+			}
+
 		default:
 			cmd := exec.Command(args[0], args[1:]...)
 			cmd.Stdout = os.Stdout
