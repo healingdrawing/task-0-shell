@@ -25,6 +25,7 @@ func main() {
 		if err != nil {
 			// Handle EOF (Ctrl+D)
 			if err == io.EOF {
+				fmt.Println()
 				return
 			}
 			fmt.Println(err)
