@@ -27,4 +27,4 @@ or press `Ctrl+d`, or `Ctrl+c`.
 Installed `go` programming language. Version `1.21.5` was used during development.  
 
 ## Authors
-[healingdrawing](https://healingdrawing.github.io)  
+- [healingdrawing](https://healingdrawing.github.io)  
