@@ -11,6 +11,9 @@ Follow the next rules and restrictions to use program properly:
 Otherwise do not expect correct work.  
 For details see [task and audit questions](https://github.com/01-edu/public/tree/master/subjects/0-shell).  
 
+## Requirements 
+Ensure that you have `go` programming language installed. Version `1.21.5` was used during development. Make sure your version is up to date. 
+
 ## Usage
 To run the program, use the following command:  
 ```bash
@@ -21,10 +24,7 @@ To exit the program, use the following command:
 ```bash
 exit
 ```
-or press `Ctrl+d`, or `Ctrl+c`.  
-
-## Requirements
-Installed `go` programming language. Version `1.21.5` was used during development.  
+or press `Ctrl+d`, or `Ctrl+c`.   
 
 ## Authors
 - [healingdrawing](https://healingdrawing.github.io)  
