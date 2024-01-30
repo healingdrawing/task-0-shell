@@ -7,3 +7,13 @@ This great sir is our sun light, after this grit:lab [creature](linkedin.com/in/
 According to not confirmed info (i did not see this personally), the last audit of the five audits of 0-shell project of the group of the dick, the solution crashed two times in auditing process. But it was the last audit, x4 audits before was passed. After project was passed, dick made issue on github, and crap to other students road.  
 
 The country must know its heroes.  
+
+## Usage
+
+### start application
+terminal: `go run .`  
+
+### stop application
+terminal: `exit`  
+or  
+press `Ctrl+d`  
