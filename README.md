@@ -2,7 +2,6 @@
 grit:lab Åland Islands 2023  
 
 The `v1` folder includes an elegance solution. Not actual anymore, because of the new requirements.  
-The `v2` folder includes a solution for the new requirements.  
 
 ## Description
 : u л ы 6 β o p o m u g y a u g e p c й o r ы p a 6 я a н н e л β e ω y g o o β m c o x л a k o л m k e o p n й u ч o 6 a p a л u л й e φ a з й e m e g x u o p m a л u g o p u ж y м a з a л ω ы β k a k o r o m o g u k н u p e ч e β e u k c e ч u m o k p a н g a з a н m e л u m я c e g e e л o 6 a л a щ e c o n м a x y л c o n я a p o m o k u m e л o r o н м ы м o k a н з u н o й o p o m o k c a φ a n й e ц u н m o 6 a p o r o м e a ж o 6 o u e u н e p e β o m c o g y e o k c ь л e m u g o β ь m u ч y л o n u m c o н ж o м з o β a g y c e c c e ц o p n β o r o н н e ω u л o н н e н з u ж o n й o m o k p a н ю л β o r p o m a з м y м u н u м k a k o r e ω β e g u c m o u r ы p a 6 u a н a м o k p a н o r o н m c e м м o β m c ь л e m u g a β g e p n g o n u u ц e β ω u л u β o β o p m c o x u k c g н a л a м o β m c н a g ж a p r c u м a m н e g y m c я c x u щ ю я л β я й e л e m u ж x ы н m c e м a n n y p r g a з a н й e н g o k ь л o k c e н 
